@@ -50,7 +50,7 @@
 			var oParent = document.getElementById("wrap"),
 			    oBoxs = getNodesByClass(oParent,"box"),//获取到了20个classname为box的图片盒子。
 			    firstArr = new Array();
-			    parentWidth = oBoxs[0].offsetWidth*6+"px";
+			    parentWidth = (oBoxs[0].offsetWidth)*6+"px";
 			oParent.style.width = parentWidth;
 			//将从第二排开始的元素添加到第一排中最矮的元素下面。
 			for(var i = 0;i<oBoxs.length;i++){
